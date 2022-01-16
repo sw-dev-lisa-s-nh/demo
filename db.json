@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "stores": [
+    { "id": 1, "name": "Toys 'R Us"},
+    { "id": 2, "name": "Pets 'R Us" },
+    { "id": 3, "name": "Food Frenzy" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "items": [
+    { "id": 1, "name": "Lego Death Star", "price" : "499.99", "company": "Lego" },
+    { "id": 2, "name": "Chewy Toy, "price" : "5.99", "company": "Chewy, Inc." }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "companies": [
+    { "name": "Lego",
+    "street": "123 Main St.",
+    "city": "Boston", 
+    "state" : "MA",
+    "phone" : "617-123-4567"
+    } 
+  ]
 }
